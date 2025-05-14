@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="Moq" Version="4.20.70" />
     <PackageReference Include="xunit" Version="2.9.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
   </ItemGroup>
@@ -20,6 +21,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Core\FlowArchitecture.Core\FlowArchitecture.Core.csproj" />
+    <ProjectReference Include="..\..\src\Protocols\FlowArchitecture.Protocols.Abstractions\FlowArchitecture.Protocols.Abstractions.csproj" />
+    <ProjectReference Include="..\..\src\Protocols\FlowArchitecture.Protocols.Implementations\FlowArchitecture.Protocols.Implementations.csproj" />
   </ItemGroup>
 
 </Project>
