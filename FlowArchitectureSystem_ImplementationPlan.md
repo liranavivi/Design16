@@ -88,6 +88,12 @@ For each component implementation, we will follow this enhanced incremental buil
    - Adjust timeline if necessary
    - Update documentation to reflect implementation details
 
+10. **Source Control Phase**:
+    - When a phase is completed successfully, commit all changes
+    - Tag the commit with the appropriate version (e.g., v0.1.0 for Phase 1)
+    - Push the changes and tag to the GitHub repository (https://github.com/liranavivi/Design16.git)
+    - Update the implementation plan to reflect the completion of the phase
+
 This enhanced process will be applied to each component in the implementation plan, ensuring that we maintain a working solution at all times, can detect and address issues early, and that each implementation step is well-informed by existing documentation and carefully planned before execution.
 
 ## Important Implementation Requirements
@@ -129,6 +135,12 @@ These reviews and planning steps must be conducted before each implementation ta
 5. Checking if the structure (class, enum, interface) already exists in any project
 6. Ensuring all common structures are placed in the common library to avoid duplication
 7. Referencing the common library from other projects rather than recreating structures
+
+**Important Note on Source Control**: When a phase is completed successfully, the project should be pushed to https://github.com/liranavivi/Design16.git. This includes:
+1. Committing all changes with a descriptive message
+2. Tagging the commit with the appropriate version (e.g., v0.1.0 for Phase 1)
+3. Pushing both the changes and the tag to the GitHub repository
+4. Updating the implementation plan to reflect the completion of the phase
 
 ## Common Library Usage
 
